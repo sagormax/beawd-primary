@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    border-bottom: 1px solid #ddd;
+}
+.top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-height: 50px;
+    width: 90%;
+    margin: 5px auto;
+}
+
+.top-bar .left-side {
+    display: flex;
+    align-items: center;
+}
+.top-bar .left-side img {
+    width: 50px;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+.top-bar .left-side h1 {
+    font-size: 20px;
+}
+.right-side button {
+    padding: 8px 15px;
+    border-radius: 4px;
+    border: 0 none;
+    color: #fff;
+    cursor: pointer;
+}
+.right-side button.invite {
+    background-color: #E04530
+}
+.right-side button.more,
+.right-side button.search {
+    background-color: #D8DADF
+}
