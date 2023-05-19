@@ -36,7 +36,6 @@ body {
 .right-side button.invite {
     background-color: #E04530
 }
-.right-side button.more,
-.right-side button.search {
+.right-side button.more {
     background-color: #D8DADF
 }
