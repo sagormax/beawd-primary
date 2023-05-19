@@ -2,16 +2,32 @@ body {
     margin: 0;
     padding: 0;
 }
-.container {
-    border-bottom: 1px solid #ddd;
+.content {
+    width: 90%;
 }
+
 .top-bar {
+    border: 1px solid #ddd;
+}
+
+.top-bar.sticky {
+    border: 0 none;
+}
+
+.sticky {
+    box-shadow: 0px 5px 10px 1px #ddd;
+}
+
+.top-bar-content {
     display: flex;
     align-items: center;
     justify-content: space-between;
     max-height: 50px;
-    width: 90%;
     margin: 5px auto;
+}
+
+.sticky .top-bar-content {
+    padding-bottom: 4px;
 }
 
 .top-bar .left-side {
